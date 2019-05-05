@@ -1,0 +1,28 @@
+@font-face{
+  font-family: "dangdang";
+  src: url(../fonts/iconfont.eot) format('embedded-opentype'),
+       url(../fonts/iconfont.svg) format('svg'),
+       url(../fonts/iconfont.ttf) format('truetype'),
+       url(../fonts/iconfont.woff) format('woff');
+}
+
+[class^="iconfont"],[class*=" iconfont"]{
+  font-family: "dangdang";
+}
+
+.icon-zhuye::after{
+  content: '\e650'
+}
+
+.icon-fenlei::after{
+  content: '\e695'
+}
+.icon-baobao::after{
+  content: '\e601'
+}
+.icon-gouwuche::after{
+  content: '\e899'
+}
+.icon-weibiaoti2fuzhi12::after{
+  content: '\e629'
+}
